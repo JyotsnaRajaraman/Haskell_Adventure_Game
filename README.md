@@ -1,4 +1,4 @@
-# Functional Adventure Project
+# Functional Adventure - Game
 
 The game is set in a nightmare that you find yourself in being chased by a monster through an 'upside down' version of your house. In order to get out of it, you need to wake up or fight off the monster using a weapon you pick up from while navigating through the house. Here are a few rules:
 
@@ -67,13 +67,13 @@ $ this is just a dream'/'exit'/'quit' -> will help you get out of the game
 ```
 $ poke -> if you have a needle and are in the bedroom, you will wake yourself up and the nightmare will be over
 ```
-## Project Requirements
+## Project Features
 
-### 3.1. Customize the Content: 
+### Content: 
 
 The game is now a nightmare set in a house, you start from the outside and have access to the following rooms: Hall, Attic, Basement, Bathroom, Bedroom. The items in the house are also customized for the game.
 
-### 3.2. Feature of your choice:
+### Features/Commands
 
 1. New commands- poke and unlock and steps
 2. Items have an additional component called 'value' which is used to pick the winner in the monster-human weapon battle
@@ -81,6 +81,6 @@ The game is now a nightmare set in a house, you start from the outside and have 
 4. After 10 moves, you must either win, or game will be reset
 5. Monster is a counter move after 10 moves have been made that picks a random object from the house
 
-### 3.3. Secret room
+### Secret room
 
 The house itself fulfils the 'secret room' which you must enter to finish the game. To do so you must pick up the key and use the command unlock to enter the house - there is no way to go back outside unless you lose to the monster. The key also no longer exists in your inventory after unlocking the front door.
